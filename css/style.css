@@ -74,5 +74,28 @@ h1{
 #logos .container img{
     width: 10%;
 }
-    
-   
+
+/* popular collection */
+#popular > h2{
+    text-align:center;
+    margin-bottom: 20px;
+}
+.popular-container{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.item i{
+    color: orange;
+}
+.see-more{
+    width: 70%;
+    margin: auto;
+    color: #E02C6D;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-top: 20px;
+}
