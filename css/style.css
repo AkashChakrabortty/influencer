@@ -99,3 +99,33 @@ h1{
     align-items: baseline;
     margin-top: 20px;
 }
+/* featured section */
+#featured{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#featured .container .text{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text button{
+    color: #fff;
+    border: 0;
+    background: #E02C6D;
+    padding: 15px 20px;
+}
+/* footer */
+footer{
+    background-color: rgba(0, 0, 255, 0.6);
+    overflow: hidden;
+}
+footer .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
